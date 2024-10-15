@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (hello-world "hello-world.cpp" "hello-world.h")
+add_executable (hello-world "hello-world.cpp" "hello-world.h" "helpers.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET hello-world PROPERTY CXX_STANDARD 20)
